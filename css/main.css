@@ -1,0 +1,101 @@
+*{box-sizing: border-box;}
+
+
+
+body{
+    margin: 0;
+    background-image: linear-gradient(120deg, #d6d365, #fda085);
+    color: white;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:  0 20px;
+    text-align: center;
+}
+
+
+.js-form{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.js-input, .js-btn{
+    padding: 8px;
+    font-size: 32px;
+    border: none;
+    background-color: white;
+}
+
+.js-input{
+    outline: none;
+}
+
+.js-btn{
+    color:#fda085;
+    background-color:white;
+    transition: all 0.4s ease;
+}
+
+.js-btn:hover{
+    color:white;
+    background-color:#fda085;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.js-list{
+    padding: 0;
+    min-width: 30%;
+    list-style: none;
+}
+
+.js-item{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 8px;
+    padding-left: 15px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    
+}
+
+.js-span{
+   display: inline-block;
+   margin-right: auto;
+}
+
+.delete-btn{
+    background-color: #ff6f47;
+    color: white;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.check{
+    width: 30px;
+    height: 30px;
+}
+
+.all-count, .complete, .uncomplete {
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+
+}
+
